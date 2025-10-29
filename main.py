@@ -11,6 +11,7 @@ def long_title():
             if len(row[1]) > 30:
                 count += 1
     print(f"Книг с длинным названием: {count}")
+    
 
 def cheap_books():
     author = input('Введите автора: ')
@@ -43,11 +44,11 @@ def generate_bibliografy():
     print("Файл 'bibliography.txt' создан")
 
 
-
 def main():
     long_title()
     cheap_books()
     generate_bibliografy()
+
 
 if __name__ == "__main__":
     main()
